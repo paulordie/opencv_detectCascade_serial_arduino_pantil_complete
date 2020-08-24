@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pcorrea/Documents/learning/cpluplus/clion1/main.cpp
+opencv2/highgui/highgui.hpp
+/home/pcorrea/Documents/learning/cpluplus/clion1/opencv2/highgui/highgui.hpp
+opencv2/imgproc/imgproc.hpp
+/home/pcorrea/Documents/learning/cpluplus/clion1/opencv2/imgproc/imgproc.hpp
+opencv2/imgproc/imgproc.hpp
+-
+opencv2/highgui/highgui.hpp
+-
+opencv2/opencv.hpp
+/home/pcorrea/Documents/learning/cpluplus/clion1/opencv2/opencv.hpp
+iostream
+-
+
