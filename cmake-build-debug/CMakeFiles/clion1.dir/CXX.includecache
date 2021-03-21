@@ -6,17 +6,35 @@
 
 #IncludeRegexTransform: 
 
-/home/pcorrea/Documents/learning/cpluplus/clion1/main.cpp
+/home/pcorrea/Documents/learning/cpluplus/clion1/resource/CamSetting.cpp
+CamSetting.h
+/home/pcorrea/Documents/learning/cpluplus/clion1/resource/CamSetting.h
+
+/home/pcorrea/Documents/learning/cpluplus/clion1/resource/CamSetting.h
 opencv2/highgui/highgui.hpp
-/home/pcorrea/Documents/learning/cpluplus/clion1/opencv2/highgui/highgui.hpp
+/home/pcorrea/Documents/learning/cpluplus/clion1/resource/opencv2/highgui/highgui.hpp
 opencv2/imgproc/imgproc.hpp
-/home/pcorrea/Documents/learning/cpluplus/clion1/opencv2/imgproc/imgproc.hpp
-opencv2/imgproc/imgproc.hpp
--
-opencv2/highgui/highgui.hpp
--
+/home/pcorrea/Documents/learning/cpluplus/clion1/resource/opencv2/imgproc/imgproc.hpp
 opencv2/opencv.hpp
-/home/pcorrea/Documents/learning/cpluplus/clion1/opencv2/opencv.hpp
+/home/pcorrea/Documents/learning/cpluplus/clion1/resource/opencv2/opencv.hpp
 iostream
+-
+SerialPort.h
+/home/pcorrea/Documents/learning/cpluplus/clion1/resource/SerialPort.h
+
+/home/pcorrea/Documents/learning/cpluplus/clion1/resource/SerialPort.h
+stdio.h
+-
+string.h
+-
+fcntl.h
+-
+errno.h
+-
+termios.h
+-
+unistd.h
+-
+string
 -
 

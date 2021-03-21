@@ -6,7 +6,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 set(OpenCV_FOUND 1)
 find_package( OpenCV REQUIRED )
 
-set(SOURCE_FILES main.cpp)
+set(SOURCE_FILES main.cpp resource/CamSetting.cpp resource/CamSetting.h resource/SerialPort.cpp resource/SerialPort.h)
 
 add_executable(clion1 ${SOURCE_FILES})
 

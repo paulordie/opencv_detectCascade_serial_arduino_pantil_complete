@@ -55,10 +55,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/129/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/145/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/129/bin/cmake/linux/bin/cmake -E rm -f
+RM = /snap/clion/145/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -94,12 +94,12 @@ clean: CMakeFiles/clion1.dir/clean
 CMakeFiles/clion1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clion1.dir/build.make CMakeFiles/clion1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clion1.dir/build.make CMakeFiles/clion1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pcorrea/Documents/learning/cpluplus/clion1/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target clion1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pcorrea/Documents/learning/cpluplus/clion1/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target clion1"
 .PHONY : CMakeFiles/clion1.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/clion1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pcorrea/Documents/learning/cpluplus/clion1/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pcorrea/Documents/learning/cpluplus/clion1/cmake-build-debug/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/clion1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/pcorrea/Documents/learning/cpluplus/clion1/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/clion1.dir/rule

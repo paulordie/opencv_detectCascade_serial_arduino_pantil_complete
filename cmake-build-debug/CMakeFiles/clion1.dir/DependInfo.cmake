@@ -5,6 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/pcorrea/Documents/learning/cpluplus/clion1/main.cpp" "/home/pcorrea/Documents/learning/cpluplus/clion1/cmake-build-debug/CMakeFiles/clion1.dir/main.cpp.o"
+  "/home/pcorrea/Documents/learning/cpluplus/clion1/resource/CamSetting.cpp" "/home/pcorrea/Documents/learning/cpluplus/clion1/cmake-build-debug/CMakeFiles/clion1.dir/resource/CamSetting.cpp.o"
+  "/home/pcorrea/Documents/learning/cpluplus/clion1/resource/SerialPort.cpp" "/home/pcorrea/Documents/learning/cpluplus/clion1/cmake-build-debug/CMakeFiles/clion1.dir/resource/SerialPort.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

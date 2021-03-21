@@ -59,10 +59,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/129/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/145/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/129/bin/cmake/linux/bin/cmake -E rm -f
+RM = /snap/clion/145/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -79,7 +79,7 @@ CMAKE_BINARY_DIR = /home/pcorrea/Documents/learning/cpluplus/clion1/cmake-build-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/129/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/145/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -90,7 +90,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/129/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/145/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -170,6 +170,60 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clion1.dir/build.make CMakeFiles/clion1.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+resource/CamSetting.o: resource/CamSetting.cpp.o
+
+.PHONY : resource/CamSetting.o
+
+# target to build an object file
+resource/CamSetting.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clion1.dir/build.make CMakeFiles/clion1.dir/resource/CamSetting.cpp.o
+.PHONY : resource/CamSetting.cpp.o
+
+resource/CamSetting.i: resource/CamSetting.cpp.i
+
+.PHONY : resource/CamSetting.i
+
+# target to preprocess a source file
+resource/CamSetting.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clion1.dir/build.make CMakeFiles/clion1.dir/resource/CamSetting.cpp.i
+.PHONY : resource/CamSetting.cpp.i
+
+resource/CamSetting.s: resource/CamSetting.cpp.s
+
+.PHONY : resource/CamSetting.s
+
+# target to generate assembly for a file
+resource/CamSetting.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clion1.dir/build.make CMakeFiles/clion1.dir/resource/CamSetting.cpp.s
+.PHONY : resource/CamSetting.cpp.s
+
+resource/SerialPort.o: resource/SerialPort.cpp.o
+
+.PHONY : resource/SerialPort.o
+
+# target to build an object file
+resource/SerialPort.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clion1.dir/build.make CMakeFiles/clion1.dir/resource/SerialPort.cpp.o
+.PHONY : resource/SerialPort.cpp.o
+
+resource/SerialPort.i: resource/SerialPort.cpp.i
+
+.PHONY : resource/SerialPort.i
+
+# target to preprocess a source file
+resource/SerialPort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clion1.dir/build.make CMakeFiles/clion1.dir/resource/SerialPort.cpp.i
+.PHONY : resource/SerialPort.cpp.i
+
+resource/SerialPort.s: resource/SerialPort.cpp.s
+
+.PHONY : resource/SerialPort.s
+
+# target to generate assembly for a file
+resource/SerialPort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clion1.dir/build.make CMakeFiles/clion1.dir/resource/SerialPort.cpp.s
+.PHONY : resource/SerialPort.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -182,6 +236,12 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... resource/CamSetting.o"
+	@echo "... resource/CamSetting.i"
+	@echo "... resource/CamSetting.s"
+	@echo "... resource/SerialPort.o"
+	@echo "... resource/SerialPort.i"
+	@echo "... resource/SerialPort.s"
 .PHONY : help
 
 

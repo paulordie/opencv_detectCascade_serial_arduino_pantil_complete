@@ -89,6 +89,18 @@
 		<Unit filename="/home/pcorrea/Documents/learning/cpluplus/clion1/main.cpp">
 			<Option target="clion1"/>
 		</Unit>
+		<Unit filename="/home/pcorrea/Documents/learning/cpluplus/clion1/resource/CamSetting.cpp">
+			<Option target="clion1"/>
+		</Unit>
+		<Unit filename="/home/pcorrea/Documents/learning/cpluplus/clion1/resource/CamSetting.h">
+			<Option target="clion1"/>
+		</Unit>
+		<Unit filename="/home/pcorrea/Documents/learning/cpluplus/clion1/resource/SerialPort.cpp">
+			<Option target="clion1"/>
+		</Unit>
+		<Unit filename="/home/pcorrea/Documents/learning/cpluplus/clion1/resource/SerialPort.h">
+			<Option target="clion1"/>
+		</Unit>
 		<Unit filename="/home/pcorrea/Documents/learning/cpluplus/clion1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
