@@ -144,6 +144,7 @@ clion1: /usr/local/lib/libopencv_tracking.so.3.4.4
 clion1: /usr/local/lib/libopencv_plot.so.3.4.4
 clion1: /usr/local/lib/libopencv_stereo.so.3.4.4
 clion1: /usr/local/lib/libopencv_xphoto.so.3.4.4
+clion1: /usr/local/lib/libopencv_cvv.so.3.4.4
 clion1: /usr/local/lib/libopencv_dnn_objdetect.so.3.4.4
 clion1: /usr/local/lib/libopencv_reg.so.3.4.4
 clion1: /usr/local/lib/libopencv_hdf.so.3.4.4

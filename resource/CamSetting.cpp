@@ -16,6 +16,7 @@ bool CamSetting::openCam() {
 
 void CamSetting::capImage() {
     for(;;) {
+        
         if (!capture.grab()) {
             std::cout << "can not grab frame." << std::endl;
 
@@ -34,8 +35,6 @@ void CamSetting::capImage() {
                                                                             |CV_HAAR_DO_ROUGH_SEARCH,
                         //| CV_HAAR_SCALE_IMAGE,
                                                    cv::Size(30, 30));
-
-
 
                 vectDetect(faces);
 
@@ -63,9 +62,12 @@ void CamSetting::vectDetect(std::vector<cv::Rect>& _faces) {
 
     const static cv::Scalar colors[] = {CV_RGB(255, 0, 0)};
 
+    int i = 0;
+
     for (std::vector<cv::Rect>::const_iterator r = _faces.begin(); r != _faces.end(); r++, i++) {
 
         color = colors[i % 8];
+
 
         double aspect_ratio = (double) r->width / r->height;
         if (0.75 < aspect_ratio && aspect_ratio < 1.3) {
@@ -85,8 +87,7 @@ void CamSetting::vectDetect(std::vector<cv::Rect>& _faces) {
             printf("tempo de deteccao = %g ms\n", t / ((double) cvGetTickFrequency() * 1000.));
 
             writePosition(targetX, targetY);
-            targetX = 0;
-            targetY = 0;
+
         }
     }
     // return cv::Point();
