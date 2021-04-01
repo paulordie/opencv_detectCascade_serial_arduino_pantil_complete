@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+/home/pcorrea/Documents/learning/cpluplus/clion1/main.cpp
+resource/CamSetting.h
+/home/pcorrea/Documents/learning/cpluplus/clion1/resource/CamSetting.h
+resource/SerialPort.h
+/home/pcorrea/Documents/learning/cpluplus/clion1/resource/SerialPort.h
+
 /home/pcorrea/Documents/learning/cpluplus/clion1/resource/CamSetting.cpp
 CamSetting.h
 /home/pcorrea/Documents/learning/cpluplus/clion1/resource/CamSetting.h

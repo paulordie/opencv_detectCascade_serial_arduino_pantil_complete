@@ -7,6 +7,8 @@ int main(int, char**)
     CamSetting cam;
     port.portOpen();
 
+    cam.opencvVersion();
+
     if (!cam.openCam()){
         printf("Erro with the cam");
     } else if (!cam.loadCascade()){

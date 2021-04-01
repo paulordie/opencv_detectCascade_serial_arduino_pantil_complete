@@ -18,7 +18,7 @@ public:
     bool openCam();
     void capImage();
     bool loadCascade();
-    void opencvVersion();
+    static void opencvVersion();
     void vectDetect(std::vector<cv::Rect>& _faces);
     void writePosition(int targetX, int targetY);
 
@@ -33,7 +33,7 @@ private:
 
     double t = 0;
     double scale = 1;
-    int i = 0;
+    //int i = 0;
 
     cv::Point center;
     cv::Scalar color;

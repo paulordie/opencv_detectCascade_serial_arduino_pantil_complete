@@ -6,7 +6,7 @@
 
 bool CamSetting::openCam() {
 
-    capture = 0;
+    capture = 1;
     if (capture.isOpened()){
         return true;
     } else {
